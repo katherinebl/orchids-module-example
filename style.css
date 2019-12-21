@@ -1,7 +1,10 @@
+body {
+  background-color:#000000;
+}
+
 h1 {
   text-align: center;
   padding: 1.5rem 2.5rem;
-  background-color: #000000;
   margin: 0 0 2rem 0;
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
@@ -16,7 +19,8 @@ h2 {
   margin-top: 0;
 }
 
-p {
+p,
+.footer {
   text-align: center;
   font-family: 'Courier Prime', monospace;
 }
@@ -37,6 +41,11 @@ img {
   margin-bottom: 2em;
 }
 
+.footer {
+  padding: 1em;
+  color: white;
+}
+
 @media all and (min-width: 768px) {
   h1 {
     font-size: 2.5rem;
@@ -47,7 +56,8 @@ img {
     font-size: 2rem;
   }
 
-  p {
+  p,
+  .footer {
     font-size: 1.5rem;
   }
   
